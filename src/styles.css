@@ -198,6 +198,25 @@ body{
   color:var(--muted);
 }
 
+/* small inline link-style button for nav (Login) */
+.btn-link{
+  background:transparent;
+  border:0;
+  color:var(--muted);
+  padding:6px 8px;
+  font-weight:600;
+  border-radius:8px;
+  cursor:pointer;
+}
+.btn-link:hover{
+  color:#fff;
+  background:rgba(255,255,255,0.03);
+}
+.btn-link:focus{
+  outline:2px solid rgba(127,90,240,0.12);
+  outline-offset:2px;
+}
+
 @keyframes blob{
   0%{transform:translate(0,0) rotate(0deg)}
   50%{transform:translate(-40px,20px) rotate(6deg)}
