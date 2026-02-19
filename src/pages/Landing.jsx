@@ -73,7 +73,7 @@ export default function Landing() {
           initial="hidden"
           animate="visible"
         >
-          Works with MySQL, PostgreSQL, MongoDB and more — mapping tables, relationships
+          Works with MySQL, PostgreSQL, MongoDB and more mapping tables, relationships
           and real query traffic into a unified, explainable graph model.
         </motion.p>
 
@@ -260,7 +260,7 @@ export default function Landing() {
           viewport={{ once: true }}
         >
           Faster root-cause analysis, clearer schema visibility, and actionable intelligence
-          — powered by a modern graph and GNN-backed engine designed for real-world
+           powered by a modern graph and GNN-backed engine designed for real-world
           workloads.
         </motion.p>
 
